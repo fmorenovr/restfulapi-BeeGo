@@ -1,0 +1,12 @@
+db.users.insert([{
+	"username" : "euser",
+	"password" : "123456",
+},
+{
+	"username" : "vuser",
+	"password" : "123456",
+}])
+db.users.insert({
+	"username" : "admin",
+	"password" : "passwd",
+})
