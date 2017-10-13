@@ -20,8 +20,8 @@ func RestfulAPIServiceInit(method string){
   beego.BConfig.WebConfig.EnableDocs = true
   beego.BConfig.WebConfig.DirectoryIndex = true
   beego.BConfig.CopyRequestBody = true
-  beego.BConfig.Listen.HTTPSCertFile = "tls-ssl/beagons-rest.crt"
-  beego.BConfig.Listen.HTTPSKeyFile = "tls-ssl/beagons-rest.key"
+  beego.BConfig.Listen.HTTPSCertFile = "tls-ssl/file-rest.crt"
+  beego.BConfig.Listen.HTTPSKeyFile = "tls-ssl/file-rest.key"
   beego.BConfig.Listen.HTTPPort = 8080
   beego.BConfig.Listen.HTTPSPort = 8081
   if method == "HTTP" {
